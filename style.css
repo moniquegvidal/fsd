@@ -1,0 +1,139 @@
+body {
+    background-color: #DCDCDC;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.titulo h1 {
+    color: #fcfbfa;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.paragrafo p {
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+.tabela {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.tabela table {
+    width: 100%;
+    border-radius: 12px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #C0C0C0;
+}
+
+.tabela th,
+.tabela td {
+    border: 1px solid #808080;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabela th {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.tabela img {
+    width: 50px;
+    height: auto;
+}
+
+.container-A {
+    margin: 30px auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #A9A9A9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgb(17, 17, 17);
+}
+
+.superior {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.lado-esquerdo .imagem {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.lado-direito{
+    background-color: #808080;
+    border-radius: 12px;
+}
+.lado-direito ul {
+    list-style-type: square;
+    font-size: 20px;
+    margin-left: 70px;
+    color: #ffffff;
+}
+
+.lado-direito li {
+    margin-bottom: 20px; 
+}
+
+.lado-direito h3 {
+    margin-bottom: 20px;
+    margin-inline: 70px;
+    font-size: 22px;
+    color: #ffffff;
+}
+.baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.baixo .botao {
+    padding: 10px 70px;
+    background-color: #696969;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-inline: auto;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.baixo .botao:hover {
+    color: #ffcccb;
+    
+}
+.baixo .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-inline: auto;
+    background-color: #696969;
+    padding: 10px 70px;
+    border-radius: 8px;
+    
+
+}
+
+.baixo .link:hover {
+    color: #ffcccb;
+    
+    
+}
+
